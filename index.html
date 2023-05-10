@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latte cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="script" href="script.js">
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@700&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main">
+        <div class="main__inner">
+         <div class="menu">
+            <h1 class="main__title">
+                Menu
+            </h1>
+            <p class="main__text">We change our menu every season. Here is what we are currently dishing up.</p>
+            <div class="main__btns">
+                <button type="submit" id="btnfood" onclick="food()" class="food__menu">Food Menu</button>
+                <button type="submit" id="btndrinks" onclick="drinks()" class="drinks__menu">Drinks Menu</button>
+                <button type="submit" id="btntakeaway" onclick="takeaway()" class="takeaway__menu">Takeaway Menu</button>
+            </div>
+         </div>
+            <div class="menu__img">
+                <img class="menu__img" src="img/food.jpg" style=" display: none;" alt="" id="img1" >
+                <img class="menu__img" src="img/drinks.jpg" style=" display: none;" alt="" id="img2" >
+                <img class="menu__img" src="img/takeaway.jpg" style=" display: none;" alt="" id="img3" >
+            </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

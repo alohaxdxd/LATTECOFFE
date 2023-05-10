@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E9E9E3;   
+    font-family: 'Inter', sans-serif;
+}
+
+.main__title{
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 700;
+    padding-bottom: 17px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F6F64;
+}
+
+.menu{
+    padding-right: 106px;
+}
+
+.main__text{
+    font-weight: 400;
+    font-size: 32px;
+    width: 558px;
+    line-height: 45px;
+    padding-bottom: 74px;
+    color: #6F6F64;
+}
+
+.menu__img{
+    width: 100%;
+}
+
+
+
+.main__inner{
+    display: flex;
+    padding-top: 120px;
+    padding-left: 320px;
+    padding-right: 56px;
+    padding-bottom: 120px;
+}
+
+.food__menu{
+    margin-bottom: 17px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: 'Inter', sans-serif;
+    width: 531px;
+    border: 2px solid #6F6F64;
+    outline: none;
+    cursor: pointer;
+    color: #6F6F64;
+}
+
+.drinks__menu{
+    margin-bottom: 17px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: 'Inter', sans-serif;
+    width: 531px;
+    border: 2px solid #6F6F64;
+    cursor: pointer;
+    outline: none;
+    color: #6F6F64;
+}
+
+.takeaway__menu{
+    margin-bottom: 17px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: 'Inter', sans-serif;
+    width: 531px;
+    border: 2px solid #6F6F64;
+    cursor: pointer;
+    outline: none;
+    color: #6F6F64;
+}
+
+.food__menu:focus{
+    background-color: #6F6F64;
+    color: white;
+}
+
+.food__menu:hover{
+    background-color: #6F6F64;
+    color: white;
+}
+
+.drinks__menu:focus{
+    background-color: #6F6F64;
+    color: white;
+}
+
+.drinks__menu:hover{
+    background-color: #6F6F64;
+    color: white;
+}
+
+.takeaway__menu:focus{
+    background-color: #6F6F64;
+    color: white;
+}
+
+.takeaway__menu:hover{
+    background-color: #6F6F64;
+    color: white;
+}
+
+.main__btns{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:1634px) {
+
+    .main__text{
+        font-weight: 400;
+        font-size: 15px;
+        width: 300px;
+        line-height: 45px;
+        padding-bottom: 74px;
+        color: #6F6F64;
+    }
+
+    .food__menu{
+        margin-bottom: 17px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        font-family: 'Inter', sans-serif;
+        width: 280px;
+        font-size: 15px;
+        border: 2px solid #6F6F64;
+        color: #6F6F64;
+        cursor: pointer;
+    }
+
+    .drinks__menu{
+        margin-bottom: 17px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        font-family: 'Inter', sans-serif;
+        width: 280px;
+        font-size: 15px;
+        border: 2px solid #6F6F64;
+        color: #6F6F64;
+        cursor: pointer;
+    }
+
+    .takeaway__menu{
+        margin-bottom: 17px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        font-family: 'Inter', sans-serif;
+        width: 280px;
+        font-size: 15px;
+        border: 2px solid #6F6F64;
+        color: #6F6F64;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width:1326px){
+
+    .main__text{
+        font-weight: 400;
+        font-size: 15px;
+        width: 280px;
+        line-height: 45px;
+        padding-bottom: 74px;
+        color: #6F6F64;
+    }
+    .food__menu{
+        margin-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Inter', sans-serif;
+        width: 260px;
+        font-size: 15px;
+        border: 2px solid #6F6F64;
+        color: #6F6F64;
+        cursor: pointer;
+    }
+
+    .drinks__menu{
+        margin-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Inter', sans-serif;
+        width: 260px;
+        font-size: 15px;
+        border: 2px solid #6F6F64;
+        color: #6F6F64;
+        cursor: pointer;
+    }
+
+    .takeaway__menu{
+        margin-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Inter', sans-serif;
+        width: 260px;
+        font-size: 15px;
+        border: 2px solid #6F6F64;
+        color: #6F6F64;
+        cursor: pointer;
+    }
+}
