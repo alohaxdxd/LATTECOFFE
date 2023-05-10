@@ -31,6 +31,24 @@
                 <img class="menu__img" src="img/takeaway.jpg" style=" display: none;" alt="" id="img3" >
             </div>
     </main>
-    <script src="main.js"></script>
+    <script src="main.js">
+        function food() {
+	document.getElementById('img1').style.display='block';
+    document.getElementById('img2').style.display='none';
+    document.getElementById('img3').style.display='none';
+}
+
+function drinks() {
+	document.getElementById('img1').style.display='none';
+    document.getElementById('img2').style.display='block';
+    document.getElementById('img3').style.display='none';
+}
+
+function takeaway() {
+	document.getElementById('img1').style.display='none';
+    document.getElementById('img2').style.display='none';
+    document.getElementById('img3').style.display='block';
+}
+</script>
 </body>
 </html>
